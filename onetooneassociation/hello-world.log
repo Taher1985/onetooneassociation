@@ -1,0 +1,179 @@
+20:10:17,442 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+20:10:18,081 DEBUG SQL:94 - select PASSPORT_SEQUENCE.nextval from dual
+20:10:40,538 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+20:10:41,127 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+20:11:17,254 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+20:11:17,844 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+20:11:58,773 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+20:11:59,360 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+20:12:01,195 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+20:12:01,216 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [ABC1234]
+20:12:01,218 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [1]
+20:12:01,267 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+20:12:01,268 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Taher]
+20:12:01,268 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [1]
+20:12:01,268 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [4]
+20:16:23,938 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+20:16:24,585 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+20:16:27,106 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+20:16:27,132 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [POY42329]
+20:16:27,134 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [2]
+20:16:27,137 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+20:16:27,138 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+20:16:27,138 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+20:16:27,138 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [5]
+20:19:17,248 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+20:19:17,293 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+20:19:17,301 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+20:19:17,302 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+20:19:17,303 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [7]
+21:06:35,301 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:06:35,986 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:06:40,871 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:06:40,882 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [POY42329]
+21:06:40,883 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [3]
+21:06:40,885 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:06:40,885 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+21:06:40,885 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+21:06:40,886 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [9]
+21:11:53,394 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:11:53,437 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:11:53,441 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:11:53,449 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [POY42329]
+21:11:53,450 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [4]
+21:13:27,645 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:13:27,703 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:13:27,709 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:13:27,717 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [POY42329]
+21:13:27,718 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [5]
+21:13:27,722 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:13:27,723 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+21:13:27,723 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+21:13:27,723 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [13]
+21:18:23,635 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:18:23,681 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:18:23,688 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+21:18:23,688 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+21:18:23,689 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [15]
+21:18:46,756 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:18:46,804 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:18:46,811 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+21:18:46,812 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+21:18:46,812 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [17]
+21:21:46,745 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:21:46,795 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:21:46,803 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [POY42329]
+21:21:46,804 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [6]
+21:22:35,533 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:22:35,573 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:22:35,581 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:22:35,590 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [ABC1234]
+21:22:35,591 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [7]
+21:22:35,593 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:22:35,593 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Taher]
+21:22:35,594 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [7]
+21:22:35,594 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [19]
+21:22:54,305 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:22:54,352 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:22:54,359 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:22:54,366 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [POY42329]
+21:22:54,367 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [8]
+21:22:54,369 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:22:54,369 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+21:22:54,369 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+21:22:54,369 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [20]
+21:27:32,740 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:27:32,783 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:27:32,787 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:27:32,796 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [POY42329]
+21:27:32,797 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [9]
+21:27:32,798 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:27:32,798 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+21:27:32,799 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+21:27:32,799 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [22]
+21:28:59,163 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:28:59,201 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:28:59,212 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:28:59,220 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [ABC1234]
+21:28:59,221 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [10]
+21:28:59,223 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:28:59,224 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Taher]
+21:28:59,224 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [10]
+21:28:59,224 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [24]
+21:29:29,734 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:29:29,779 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:29:29,783 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:29:29,790 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [POY42329]
+21:29:29,791 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [11]
+21:29:29,793 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:29:29,794 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Amreen]
+21:29:29,794 TRACE BasicBinder:53 - binding parameter [2] as [INTEGER] - [null]
+21:29:29,794 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [25]
+21:32:57,446 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:32:57,490 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:32:57,498 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:32:57,507 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [ABC1234]
+21:32:57,508 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [12]
+21:32:57,510 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:32:57,510 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Taher]
+21:32:57,511 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [12]
+21:32:57,511 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [27]
+21:50:34,348 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+21:50:34,386 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [12]
+21:50:54,004 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+21:50:54,043 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [27]
+21:52:18,459 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+21:52:19,077 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [27]
+21:53:45,008 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+21:53:45,046 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [12]
+21:54:26,282 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:54:26,319 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:54:26,327 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:54:26,334 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [ABC1234]
+21:54:26,335 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [13]
+21:54:26,337 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:54:26,337 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Taher]
+21:54:26,338 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [13]
+21:54:26,338 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [28]
+21:54:26,346 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+21:54:26,347 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [28]
+21:54:55,448 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:54:55,488 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:54:55,497 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:54:55,504 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [ABC1234]
+21:54:55,505 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [14]
+21:54:55,507 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:54:55,507 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Taher]
+21:54:55,507 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [14]
+21:54:55,507 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [29]
+21:54:55,521 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+21:54:55,522 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [29]
+21:55:43,074 DEBUG SQL:94 - select HUMAN_SEQ.nextval from dual
+21:55:43,114 DEBUG SQL:94 - select PASSPORT_SEQ.nextval from dual
+21:55:43,124 DEBUG SQL:94 - insert into Passport (PASSPORT_NUMBER, PASSPORT_ID) values (?, ?)
+21:55:43,131 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [ABC1234]
+21:55:43,132 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [15]
+21:55:43,134 DEBUG SQL:94 - insert into Human (HUMAN_NAME, PASSPORT_ID, HUMAN_ID) values (?, ?, ?)
+21:55:43,134 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Taher]
+21:55:43,134 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [15]
+21:55:43,135 TRACE BasicBinder:65 - binding parameter [3] as [INTEGER] - [30]
+21:55:43,146 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+21:55:43,147 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [30]
+22:42:47,904 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+22:42:47,942 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [27]
+22:45:22,980 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+22:45:23,019 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [27]
+22:45:23,043 DEBUG SQL:94 - delete from Human where HUMAN_ID=?
+22:45:23,043 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [27]
+22:45:23,046 DEBUG SQL:94 - delete from Passport where PASSPORT_ID=?
+22:45:23,047 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [12]
+22:46:27,624 DEBUG SQL:94 - select passport0_.PASSPORT_ID as PASSPORT_ID1_1_0_, passport0_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_0_, human1_.HUMAN_ID as HUMAN_ID1_0_1_, human1_.HUMAN_NAME as HUMAN_NAME2_0_1_, human1_.PASSPORT_ID as PASSPORT_ID3_0_1_ from Passport passport0_ left outer join Human human1_ on passport0_.PASSPORT_ID=human1_.PASSPORT_ID where passport0_.PASSPORT_ID=?
+22:46:27,660 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [13]
+22:46:27,687 DEBUG SQL:94 - delete from Human where HUMAN_ID=?
+22:46:27,687 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [28]
+22:46:27,689 DEBUG SQL:94 - delete from Passport where PASSPORT_ID=?
+22:46:27,689 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [13]
+22:48:13,524 DEBUG SQL:94 - select human0_.HUMAN_ID as HUMAN_ID1_0_0_, human0_.HUMAN_NAME as HUMAN_NAME2_0_0_, human0_.PASSPORT_ID as PASSPORT_ID3_0_0_, passport1_.PASSPORT_ID as PASSPORT_ID1_1_1_, passport1_.PASSPORT_NUMBER as PASSPORT_NUMBER2_1_1_ from Human human0_ left outer join Passport passport1_ on human0_.PASSPORT_ID=passport1_.PASSPORT_ID where human0_.HUMAN_ID=?
+22:48:14,161 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [30]
+22:48:24,947 DEBUG SQL:94 - delete from Human where HUMAN_ID=?
+22:48:24,948 TRACE BasicBinder:65 - binding parameter [1] as [INTEGER] - [30]
